@@ -1,92 +1,62 @@
-# Number Guessing Game
+# 🎮 Number Guessing Game
 
-- [ ] Resum project description.
-- Incluir el propósito general y qué problema resuelve el proyecto.
+It is a game that generates numbers from 1 to 100 and the user has to guess
+with a limited number of lives. a limited number of lives.
 
-Es un juego que genera número del 1 al 100 y el usuario tiene que adivinar con
-un número limitado de vidas.
+## 📜 Description
 
-El proposito de esto juego más alla de ser divertido para quien lo juega busca
-es ayudarme a desarrollar habilidades para construir apps del tipo CLI.
+This is a draft of an interactive number guessing game in which you will have a
+limit of lives (attempts) to you will have a limited number of lives (attempts)
+to guess the number according to the level of difficulty level of difficulty
+you choose before your lives run out.
 
-## Description
+The game is based on a command line interface (CLI) and instead of the terminal
+you will be able to interact with the menu and the game. the terminal you will
+be able to interact with the menu and the game.
 
-- Datail resum
-- Explicacion qué es el proyecto, cómo funciona y para quién está diseñado.
-- Emeplo: "Este proyecto es un juego de adivinar números interactivo basado en
-la línea de comando con niveles de dificultad personalizable."
+## 🔆 Characteristics
 
-Este es un proyecto de un juego de adivinar número interactivo en el que
-tendras un limite de vidas (intentos) para poder adivinar el número segun el
-nivel de dificultad que elijas aunque siempre tendras la opción de rendirte
-antes de que tus vidas se agoten.
+- Random number generation.
+- Multiple levels of difficulty.
+- Command line interaction.
+- Hint system to help the player.
 
-El juego esta basado en una interfaz de línea de comandos (CLI) y atra vez de
-la terminal podras interactuar con el menú y el juego.
+## 📑 Requirements
 
-## Características
+Python version 3.12.3
 
-- Lista de caracteristicas principales del proyecto.
+> [!WARNING]
+click version 8.1.8 | **Not yet applicable for version 1.0.0.0**
 
-- Generación de números aleatorios.
-- Multiples niveles de dificultad.
-- Interacción mediante linea de comandos.
-- Sistema de pistas.
-- Temporaziador de juego (Aun no disponible).
-- Tabla de puntuaciones (Aun no disponible)
+## 👨‍💻 Use
 
-## Instalación
-
-- Instrucciones para configurar el entorno y ejecutar el proyecto.
-- Detalla:
-- Opcional: instrucciones para instalar el proyecto como un paquete (si aplicable).
-
----
-
-- Requisitos previos: Python3.12.3, click.
-- Como instalar las dependencias: pip install -r requirements.txt.
-
-Para ejecutar el juego debes estar dentro de la carpeta src y ejecutar el
-siguiente comando.
-
-python main.py
-
-Si esta en linux es posible que en vez de usar python deba usar python3
-
-## Uso
-
-- Ejemplos de cómo ejecutar el proyecto.
-- Incluir comandos básicos para interactuar con la app.
-- Ejemplo:
+To run the game you must be inside the src folder and execute the following
+command following command.
 
 ```python
-python3 src/main.py
+python main.py
 ```
 
-- Opcional: Capturas de pantalla o GIFs mostrando cómo se ve el programa.
+or
 
-## Configuración
-
-- Opciones configurables del proyecto.
-- Por ejemplo:
-    - Cómo cambiar los niveles de dificultad.
-    - Cómo ajustar el rango de números generados.
-    - Configuración del idioma o personalizaciones específicas.
-
-## Test
-
-- Explicación sobre las pruebas del proyecto
-- Cómo ejecutarlas:
-
-```bash
-pytest tests/
+```python
+python src/main.py
 ```
 
-- Que tipo de pruebas están implementadas (unitarias, funcionales, etc.).
+If you are on a linux distribution, it is possible that instead of using python
+you should use python3.
 
-## Créditos
+## 👨‍🔧 Future new features
 
-- Agradecimientos a los colaboradores o recursos utilizados.
-- Ejemplo:
-    - "Inspirado por [otro proyecto]."
-    - "Gracias a [nombre] por su colaboración."
+- [🛠️] Allow the user to play multiple rounds of the game (i.e., keep playing until the user decides to quit). You can do this by asking the user if they want to play again after each round.
+- [🛠️] Add a timer to see how long it takes the user to guess the number.
+- [✅] Implement a hint system that provides clues to the user if they are stuck.
+- [🛠️] Keep track of the user’s high score (i.e., the fewest number of attempts it took to guess the number under a specific difficulty level).
+
+## 👩‍🏫 Challenge approach
+
+Challenge posed by [Roadmap.sh | Project: Number Guessing Game](https://roadmap.sh/projects/number-guessing-game)
+
+## 🚀 Solution
+
+[JuanDuquePy | Number Guessing Game](https://github.com/JuanDuquePy/number-guessing-game)
